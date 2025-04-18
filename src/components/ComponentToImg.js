@@ -73,7 +73,7 @@ const ComponentToImg = (props) => {
 					}
 				</span>
 
-				<span className="mx-2">Download</span>
+				<span className="mx-2">下载封面</span>
 			</button>
 		</React.Fragment>
 	);

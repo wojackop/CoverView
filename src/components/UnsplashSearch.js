@@ -89,7 +89,7 @@ const UnsplashSearch = ({ largeImgPreview }) => {
                                 className={`rounded-lg relative cursor-pointer m-1 ${largeImgPreview ? ' h-44 w-60' : 'h-24 w-40'
                                     }`}
                             >
-                                <span className="font-Inter top-2 left-2 absolute text-sm font-semibold text-white opacity-50 ">Click to Select</span>
+                                <span className="font-Inter top-2 left-2 absolute text-sm font-semibold text-white opacity-50 ">点击选择</span>
                                 <img src={image.urls.regular}
                                     alt={image.alt_description}
                                     onClick={() => selectImage(image)
