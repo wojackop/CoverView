@@ -157,38 +157,8 @@ class Editor extends React.Component {
 
 
 											<div className="flex items-center">
-												{/* <div className="flex flex-col m-2 w-1/2">
-													<span className="font-medium text-sm pb-1">Pattern</span>
-													<select
-														onChange={(e) => this.setState({ pattern: e.target.value })}
-														className="focus:outline-none border text-lg p-2 rounded"
-														value={this.state.pattern}>
-
-														<option>none</option>
-														<option>graph-paper</option>
-														<option>jigsaw</option>
-														<option>hideout</option>
-														<option>dots</option>
-														<option>falling-triangles</option>
-														<option>circuit-board</option>
-														<option>temple</option>
-														<option>anchors</option>
-														<option>brickwall</option>
-														<option>overlapping-circles</option>
-														<option>wiggle</option>
-														<option>tic-tac-toe</option>
-														<option>leaf</option>
-														<option>bubbles</option>
-														<option>squares</option>
-														<option>explorer</option>
-														<option>jupiter</option>
-														<option>sun</option>
-													</select>
-												</div> */}
-
 												<div className="flex flex-col m-2 w-full">
 													<span className="font-medium text-sm pb-1">卡片样式</span>
-
 													<select
 														onChange={(e) => this.setState({ platform: e.target.value })}
 														value={this.state.platform}
@@ -197,36 +167,17 @@ class Editor extends React.Component {
 														<option>dev</option>
 													</select>
 												</div>
-
 											</div>
-
 											<button
 												className="flex items-center bg-gray-700 hover:bg-gray-800 text-white rounded-lg mt-6 text-base  p-1 px-4 mx-auto border"
 												onClick={this.handleReset}>
 												<svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-white mr-2 " fill="currentColor" viewBox="0 0 24 24" ><path d="M12 16c1.671 0 3-1.331 3-3s-1.329-3-3-3-3 1.331-3 3 1.329 3 3 3z"></path><path d="M20.817 11.186a8.94 8.94 0 0 0-1.355-3.219 9.053 9.053 0 0 0-2.43-2.43 8.95 8.95 0 0 0-3.219-1.355 9.028 9.028 0 0 0-1.838-.18V2L8 5l3.975 3V6.002c.484-.002.968.044 1.435.14a6.961 6.961 0 0 1 2.502 1.053 7.005 7.005 0 0 1 1.892 1.892A6.967 6.967 0 0 1 19 13a7.032 7.032 0 0 1-.55 2.725 7.11 7.11 0 0 1-.644 1.188 7.2 7.2 0 0 1-.858 1.039 7.028 7.028 0 0 1-3.536 1.907 7.13 7.13 0 0 1-2.822 0 6.961 6.961 0 0 1-2.503-1.054 7.002 7.002 0 0 1-1.89-1.89A6.996 6.996 0 0 1 5 13H3a9.02 9.02 0 0 0 1.539 5.034 9.096 9.096 0 0 0 2.428 2.428A8.95 8.95 0 0 0 12 22a9.09 9.09 0 0 0 1.814-.183 9.014 9.014 0 0 0 3.218-1.355 8.886 8.886 0 0 0 1.331-1.099 9.228 9.228 0 0 0 1.1-1.332A8.952 8.952 0 0 0 21 13a9.09 9.09 0 0 0-.183-1.814z"></path></svg>
 												<span className="font-Inter">重置选项</span>
 											</button>
-
 										</div>
-
-
-
 									</div>
-
 								</div>
 							</div>
-
-
-							{/* <div className="mx-4 my-1">
-						<h6>Download As</h6>
-						<select onChange={(e) => this.setState({ download: e.target.value })}
-							className="form-control input"
-							value={this.state.download}>
-							<option>PNG</option>
-							<option>JPEG</option>
-						</select>
-					</div> */}
-
 						</div>
 
 						{/* cover image preview */}
