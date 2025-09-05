@@ -12,11 +12,11 @@ import { THEMES } from "../utils/constants";
 const defaultIcon = { 'label': 'react', 'value': 'react' }
 
 const defaultSettings = {
-	title: "清羽飞扬的文章标题",
+	title: "请输入文章标题",
 	bgColor: "#949ee5",
 	pattern: "",
 	download: "PNG",
-	author: "LiuShen's Blog",
+	author: "AhHui's Blog",
 	icon: defaultIcon,
 	devIconOptions: [defaultIcon],
 	font: 'font-Anek',

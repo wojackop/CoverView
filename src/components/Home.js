@@ -13,7 +13,7 @@ const Home = () => {
                 <div className="flex items-center">
                     <img src={logo} alt="logo" className="w-8 h-8 mx-2" />
                     <h1 className="font-semibold md:text-xl text-lg font-Inter">
-                        清羽飞扬の封面生成
+                        阿辉の封面生成
                     </h1>
                 </div>
 
@@ -49,7 +49,7 @@ const Home = () => {
                     </Link>
 
                     <Link
-                        to="https://blog.liushen.fun/"
+                        to="https://gyhwd.top/"
                         className="hover:translate-x-2 duration-300 bg-gray-700 hover:bg-gray-800 group rounded-full border-4 border-gray-100 px-6 md:px-8 text-white md:text-2xl text-base font-Poppins font-semibold md:p-4 p-2 mb-16"
                     >
                         <span className="md:text-2xl font-semibold text-lg">站长博客</span>
